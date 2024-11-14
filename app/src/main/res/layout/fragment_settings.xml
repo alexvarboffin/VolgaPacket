@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/log"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        tools:background="#C40B0707" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/header_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/_20sdp"
+            android:paddingTop="@dimen/_20sdp"
+            android:paddingEnd="@dimen/_20sdp"
+            android:paddingBottom="@dimen/_2sdp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/story_caption_top"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ttnorms_regular"
+                    android:text="Настройки"
+                    android:textColor="#ffffffff"
+                    android:textSize="@dimen/_16sdp" />
+
+                <TextView
+                    android:id="@+id/story_caption_bottom"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ttnorms_bold"
+                    android:text="приложения"
+                    android:textColor="#ffffffff"
+                    android:textSize="@dimen/_16sdp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/btn_close"
+                android:layout_width="@dimen/_23sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_14sdp"
+                app:srcCompat="@drawable/ic_launcher_close" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fadeScrollbars="false"
+            android:scrollbarSize="@dimen/_4sdp"
+            android:scrollbarThumbVertical="@drawable/ic_launcher_scrollbar_thumb"
+            android:scrollbarTrackVertical="@drawable/ic_launcher_scrollbar_track"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/_10sdp">
+
+                    <TextView
+                        android:id="@+id/account_not_auth_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/ttnorms_regular"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/_7sdp"
+                        android:text="Укажите ник в окно ниже"
+                        android:textColor="#ffffffff"
+                        android:textSize="@dimen/_10sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_60sdp"
+                        android:layout_marginRight="@dimen/_60sdp"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:id="@+id/account_layout"
+                            android:layout_width="@dimen/_300sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_marginRight="@dimen/_10sdp">
+
+                            <ImageView
+                                android:id="@+id/account_background"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                app:srcCompat="@drawable/auth_bg_email" />
+
+                            <ImageView
+                                android:id="@+id/account_image"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="@dimen/_12sdp"
+                                app:srcCompat="@drawable/ic_launcher_user" />
+
+                            <EditText
+                                android:id="@+id/account_text"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="@dimen/_37sdp"
+                                android:layout_marginEnd="@dimen/_37sdp"
+                                android:fontFamily="@font/ttnorms_regular"
+                                android:gravity="center"
+                                android:hint="Ваш игровой ник"
+                                android:imeOptions="flagNoExtractUi|flagNoFullscreen|actionDone"
+                                android:inputType="text"
+                                android:lines="1"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:textColor="#ffffffff"
+                                android:textColorLink="#4CAF50"
+                                android:textSize="@dimen/_12sdp"
+                                app:autoSizeMaxTextSize="@dimen/_12sdp"
+                                app:autoSizeMinTextSize="@dimen/_3sdp"
+                                app:autoSizeTextType="uniform" />
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:id="@+id/save_nick"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:background="@drawable/auth_bg_button">
+
+                            <TextView
+                                android:id="@+id/account_not_auth_text4"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:fontFamily="@font/ttnorms_regular"
+                                android:gravity="center"
+                                android:text="Сохранить"
+                                android:textColor="#F8F8F8"
+                                android:textSize="@dimen/_12sdp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="#00040404">
+
+                        <TextView
+                            android:id="@+id/account_not_auth_text3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/ttnorms_regular"
+                            android:gravity="center"
+                            android:paddingBottom="@dimen/_7sdp"
+                            android:text="Ник должен быть формата: Имя_Фамилия. Только на латинских буквах. Пример: Ivan_Ivanov"
+                            android:textColor="#F8F8F8"
+                            android:textSize="@dimen/_10sdp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/btn_reinstall_data_dev"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/_42sdp"
+                    android:layout_marginBottom="@dimen/_16sdp"
+                    android:background="@drawable/auth_bg_button"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="@dimen/_37sdp"
+                        android:layout_marginEnd="@dimen/_37sdp"
+                        android:fontFamily="@font/ttnorms_medium"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="Обновить файлы"
+                        android:textColor="#ffffffff"
+                        android:textSize="@dimen/_12sdp"
+                        app:autoSizeMaxTextSize="@dimen/_12sdp"
+                        app:autoSizeMinTextSize="@dimen/_3sdp"
+                        app:autoSizeTextType="uniform" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/btn_changepass"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/_42sdp"
+                    android:layout_marginBottom="@dimen/_16sdp"
+                    android:background="@drawable/auth_bg_button"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="@dimen/_37sdp"
+                        android:layout_marginEnd="@dimen/_37sdp"
+                        android:fontFamily="@font/ttnorms_medium"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="Сменить пароль"
+                        android:textColor="#ffffffff"
+                        android:textSize="@dimen/_12sdp"
+                        app:autoSizeMaxTextSize="@dimen/_12sdp"
+                        app:autoSizeMinTextSize="@dimen/_3sdp"
+                        app:autoSizeTextType="uniform" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:id="@+id/btn_reinstall_data"
+                        android:layout_width="@dimen/_200sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:background="@drawable/auth_bg_button"
+                        android:visibility="gone">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="@dimen/_37sdp"
+                                android:layout_marginEnd="@dimen/_37sdp"
+                                android:fontFamily="@font/ttnorms_medium"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:text="Удалить файлы"
+                                android:textColor="#ffffffff"
+                                android:textSize="@dimen/_12sdp"
+                                app:autoSizeMaxTextSize="@dimen/_12sdp"
+                                app:autoSizeMinTextSize="@dimen/_3sdp"
+                                app:autoSizeTextType="uniform" />
+
+                            <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="@dimen/_37sdp"
+                                android:layout_marginEnd="@dimen/_37sdp"
+                                android:fontFamily="@font/ttnorms_medium"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:text="Не рекомендуем!"
+                                android:textColor="#95FFFFFF"
+                                android:textSize="@dimen/_10sdp"
+                                app:autoSizeMaxTextSize="@dimen/_12sdp"
+                                app:autoSizeMinTextSize="@dimen/_3sdp"
+                                app:autoSizeTextType="uniform" />
+
+                        </LinearLayout>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/btn_reinstall_client"
+                        android:layout_width="@dimen/_200sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:background="@drawable/auth_bg_button"
+                        android:visibility="visible">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView3"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="@dimen/_37sdp"
+                                android:layout_marginEnd="@dimen/_37sdp"
+                                android:fontFamily="@font/ttnorms_medium"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:text="Обновить игру"
+                                android:textColor="#ffffffff"
+                                android:textSize="@dimen/_12sdp"
+                                app:autoSizeMaxTextSize="@dimen/_12sdp"
+                                app:autoSizeMinTextSize="@dimen/_3sdp"
+                                app:autoSizeTextType="uniform" />
+
+                        </LinearLayout>
+
+                    </FrameLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_launcher_scrollbar_track" />
+
+            <FrameLayout
+                android:id="@+id/btn_logout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_17sdp"
+                        android:layout_height="@dimen/_16sdp"
+                        android:layout_gravity="center_vertical"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ic_garden_blocked" />
+
+                    <TextView
+                        android:id="@+id/text_version"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_11sdp"
+                        android:fontFamily="@font/ttnorms_medium"
+                        android:text="Версия лаунчера - 1"
+                        android:textColor="#A1FFFFFF"
+                        android:textSize="@dimen/_10sdp" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/faq_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/_18sdp"
+            android:paddingBottom="@dimen/_18sdp"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="@dimen/_14sdp"
+                android:layout_height="@dimen/_14sdp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="7dp"
+                app:srcCompat="@drawable/ic_launcher_faq" />
+
+            <TextView
+                android:id="@+id/faq_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:fontFamily="@font/ttnorms_regular"
+                android:text="\nПроблемы? Мы можем вам помочь!"
+                android:textColor="#ffffffff"
+                android:textSize="@dimen/_11sdp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/faq_layout1"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/_18sdp"
+            android:paddingBottom="@dimen/_18sdp"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="@dimen/_14sdp"
+                android:layout_height="@dimen/_14sdp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="7dp"
+                app:srcCompat="@drawable/ic_launcher_faq" />
+
+            <TextView
+                android:id="@+id/faq_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:fontFamily="@font/ttnorms_regular"
+                android:text="\nПроблемы? Мы можем вам помочь!"
+                android:textColor="#ffffffff"
+                android:textSize="@dimen/_11sdp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

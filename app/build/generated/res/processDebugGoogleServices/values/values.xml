@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1085461037163-i3fqqmk1416b4813t42fskd2m2sq2b33.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1085461037163</string>
+    <string name="google_api_key" translatable="false">AIzaSyDU0NvF9F40b3YJ8jO9QZOnO0TzGdJK3mU</string>
+    <string name="google_app_id" translatable="false">1:1085461037163:android:344687bd86229d7ce4312e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDU0NvF9F40b3YJ8jO9QZOnO0TzGdJK3mU</string>
+    <string name="google_storage_bucket" translatable="false">edgarcontacts-deni-kranin.appspot.com</string>
+    <string name="project_id" translatable="false">edgarcontacts-deni-kranin</string>
+</resources>

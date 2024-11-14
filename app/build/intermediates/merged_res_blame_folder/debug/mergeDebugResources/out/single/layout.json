@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\fragment_server_select.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\fragment_server_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\fragment_splash.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\fragment_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\donate_action_dialog.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\donate_action_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\keyboard.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\keyboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\radial.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\radial.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\dialog_settings_fps.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\dialog_settings_fps.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\activity_story.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\activity_story.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\dialog_settings_color.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\dialog_settings_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\dialog_settings_weapons.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\dialog_settings_weapons.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\loadingscreen.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\loadingscreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\chat.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\main_render_screen.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\main_render_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\fragment_story.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\fragment_story.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\story_item.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\story_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\story_pager_item.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\story_pager_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\hud.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\hud.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\loadingmenu.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\loadingmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\dialog_item_old.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\dialog_item_old.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\keyboard_cmd_bind.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\keyboard_cmd_bind.xml"
+    },
+    {
+        "merged": "ru.volga.online.app-mergeDebugResources-51:/layout/main_render_screen.xml",
+        "source": "ru.volga.online.app-main-54:/layout/main_render_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\keyboard_binder_item.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\keyboard_binder_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\hassle_tab.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\hassle_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\dialog_settings.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\dialog_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\serverlist_item.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\serverlist_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\menu_action_dialog.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\menu_action_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\download.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\download.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\menu_action_item.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\menu_action_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\dialog_settings_common.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\dialog_settings_common.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\chat_message.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\chat_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\speedometer.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\speedometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\activity_test.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\activity_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\keyboard_cmd_hint.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\keyboard_cmd_hint.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\dialog_settings_old.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\dialog_settings_old.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\admin_recon.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\admin_recon.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\dialog_color_choose.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\dialog_color_choose.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\keyboard_cmd_tab.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\keyboard_cmd_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\keyboard_binder.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\keyboard_binder.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\hassle_tab_item.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\hassle_tab_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\dialog_old.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\dialog_old.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\fragment_download.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\fragment_download.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\donate_action_item.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\donate_action_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\fragment_main.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\keyboard_cmd_item.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\keyboard_cmd_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\dialog_settings_hud.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\dialog_settings_hud.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\noty.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\noty.xml"
+    },
+    {
+        "merged": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-mergeDebugResources-51:\\layout\\keyboard_cmd.xml",
+        "source": "C:\\Users\\combo\\.gradle\\daemon\\8.4\\ru.volga.online.app-main-54:\\layout\\keyboard_cmd.xml"
+    }
+]

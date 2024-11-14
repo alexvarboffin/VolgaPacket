@@ -1,0 +1,527 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ru.volga.online"
+4    android:installLocation="preferExternal"
+5    android:versionCode="151"
+6    android:versionName="151-version-volga" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+10        android:targetSdkVersion="28" />
+11
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:6:5-68
+12-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:6:22-65
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:8:5-76
+13-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:8:22-73
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:9:5-67
+14-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:10:5-66
+15-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:10:22-63
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:11:5-79
+16-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+17-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:12:5-73
+17-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:12:22-70
+18    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+18-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:13:5-71
+18-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:13:22-68
+19    <uses-permission android:name="android.permission.BLUETOOTH" />
+19-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:14:5-68
+19-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:14:22-65
+20    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+20-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:15:5-71
+20-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:15:22-68
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:16:5-77
+21-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:16:22-74
+22    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+22-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:17:5-81
+22-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:17:22-78
+23    <uses-permission android:name="android.permission.ACCESS_ALL_DOWNLOADS" />
+23-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:18:5-79
+23-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:18:22-76
+24    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+24-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:19:5-81
+24-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:19:22-78
+25    <uses-permission android:name="android.permission.REORDER_TASKS" />
+25-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:20:5-72
+25-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:20:22-69
+26    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+26-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:21:5-82
+26-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:21:22-79
+27    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+27-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:22:5-81
+27-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:22:22-78
+28    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+28-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:23:5-80
+28-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:23:22-77
+29    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+29-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:24:5-85
+29-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:24:22-82
+30
+31    <uses-feature android:glEsVersion="0x00020000" />
+31-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:26:5-54
+31-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:26:19-51
+32    <uses-feature
+32-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:27:5-29:36
+33        android:name="android.hardware.touchscreen"
+33-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:28:9-52
+34        android:required="false" />
+34-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:29:9-33
+35
+36    <supports-screens
+36-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:31:5-36:39
+37        android:anyDensity="true"
+37-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:32:9-34
+38        android:largeScreens="true"
+38-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:33:9-36
+39        android:normalScreens="true"
+39-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:34:9-37
+40        android:resizeable="true"
+40-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:35:9-34
+41        android:smallScreens="true" />
+41-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:36:9-36
+42
+43    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+43-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:23:5-77
+43-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:23:22-74
+44    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+44-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:26:5-82
+44-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:26:22-79
+45
+46    <permission
+46-->[androidx.core:core:1.13.0] C:\Users\combo\.gradle\caches\transforms-3\b16311f1f2f3dc81d476cccb3d47184a\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+47        android:name="ru.volga.online.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+47-->[androidx.core:core:1.13.0] C:\Users\combo\.gradle\caches\transforms-3\b16311f1f2f3dc81d476cccb3d47184a\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+48        android:protectionLevel="signature" />
+48-->[androidx.core:core:1.13.0] C:\Users\combo\.gradle\caches\transforms-3\b16311f1f2f3dc81d476cccb3d47184a\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+49
+50    <uses-permission android:name="ru.volga.online.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- android:extractNativeLibs="true" -->
+50-->[androidx.core:core:1.13.0] C:\Users\combo\.gradle\caches\transforms-3\b16311f1f2f3dc81d476cccb3d47184a\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+50-->[androidx.core:core:1.13.0] C:\Users\combo\.gradle\caches\transforms-3\b16311f1f2f3dc81d476cccb3d47184a\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+51    <application
+51-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:38:5-128:19
+52        android:name="ru.volga.online.App"
+52-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:39:9-28
+53        android:allowBackup="true"
+53-->[com.github.Triggertrap:SeekArc:v1.1] C:\Users\combo\.gradle\caches\transforms-3\8b17472f9599d5aaef759af08efd50d0\transformed\jetified-SeekArc-v1.1\AndroidManifest.xml:35:9-35
+54        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+54-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:40:9-77
+55        android:debuggable="true"
+56        android:extractNativeLibs="true"
+57        android:fullBackupContent="@xml/appsflyer_backup_rules"
+57-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:42:9-64
+58        android:hardwareAccelerated="true"
+58-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:43:9-43
+59        android:icon="@drawable/ic_launcher"
+59-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:44:9-45
+60        android:isGame="true"
+60-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:45:9-30
+61        android:label="@string/app_name"
+61-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:46:9-41
+62        android:largeHeap="true"
+62-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:47:9-33
+63        android:networkSecurityConfig="@xml/network_security_config"
+63-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:48:9-69
+64        android:roundIcon="@drawable/ic_launcher_round"
+64-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:49:9-56
+65        android:supportsRtl="true"
+65-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:50:9-35
+66        android:testOnly="true"
+67        android:theme="@style/AppTheme.Launcher"
+67-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:51:9-49
+68        android:usesCleartextTraffic="true" >
+68-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:52:9-44
+69        <service
+69-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:55:9-61:19
+70            android:name="ru.volga.online.application.MyFirebaseMessagingService"
+70-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:56:13-82
+71            android:exported="false" >
+71-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:57:13-37
+72            <intent-filter>
+72-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:58:13-60:29
+73                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+73-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:59:17-78
+73-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:59:25-75
+74            </intent-filter>
+75        </service>
+76
+77        <meta-data
+77-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:63:9-65:56
+78            android:name="com.google.firebase.messaging.default_notification_icon"
+78-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:64:13-83
+79            android:resource="@drawable/ic_launcher" />
+79-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:65:13-53
+80        <meta-data
+80-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:66:9-68:47
+81            android:name="com.google.firebase.messaging.default_notification_color"
+81-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:67:13-84
+82            android:resource="@color/white" />
+82-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:68:13-44
+83
+84        <activity
+84-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:71:9-75:83
+85            android:name="ru.volga.launcher.activity.StoryActivity"
+85-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:72:13-68
+86            android:exported="false"
+86-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:73:13-37
+87            android:screenOrientation="landscape"
+87-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:74:13-50
+88            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+88-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:75:13-80
+89
+90        <provider
+90-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:77:9-85:20
+91            android:name="androidx.core.content.FileProvider"
+91-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:78:13-62
+92            android:authorities="ru.volga.online.provider"
+92-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:79:13-59
+93            android:exported="false"
+93-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:80:13-37
+94            android:grantUriPermissions="true" >
+94-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:81:13-47
+95            <meta-data
+95-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:82:13-84:58
+96                android:name="android.support.FILE_PROVIDER_PATHS"
+96-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:83:17-67
+97                android:resource="@xml/provider_paths" />
+97-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:84:17-55
+98        </provider>
+99
+100        <activity
+100-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:87:9-91:83
+101            android:name="ru.volga.online.activity.TestActivity"
+101-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:88:13-65
+102            android:exported="true"
+102-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:89:13-36
+103            android:screenOrientation="landscape"
+103-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:90:13-50
+104            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+104-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:91:13-80
+105        <!-- android:windowSoftInputMode="stateVisible|adjustResize|adjustPan" -->
+106        <activity
+106-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:93:9-98:16
+107            android:name="ru.volga.online.activity.GTASA"
+107-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:94:13-58
+108            android:exported="true"
+108-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:95:13-36
+109            android:screenOrientation="landscape"
+109-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:96:13-50
+110            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+110-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:97:13-80
+111        <!-- android:windowSoftInputMode="stateAlwaysHidden|adjustResize" -->
+112        <activity
+112-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:100:9-120:20
+113            android:name="ru.volga.launcher.activity.MainActivity"
+113-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:101:13-67
+114            android:autoRemoveFromRecents="true"
+114-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:102:13-49
+115            android:exported="true"
+115-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:103:13-36
+116            android:launchMode="singleTask"
+116-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:104:13-44
+117            android:screenOrientation="landscape"
+117-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:105:13-50
+118            android:theme="@style/AppTheme.Launcher"
+118-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:106:13-53
+119            android:windowSoftInputMode="adjustResize|stateHidden" >
+119-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:107:13-67
+120            <intent-filter>
+120-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:108:13-111:29
+121                <action android:name="android.intent.action.MAIN" />
+121-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:109:17-69
+121-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:109:25-66
+122
+123                <category android:name="android.intent.category.LAUNCHER" />
+123-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:110:17-77
+123-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:110:27-74
+124            </intent-filter>
+125            <intent-filter>
+125-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:112:13-119:29
+126                <action android:name="android.intent.action.VIEW" />
+126-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:113:17-69
+126-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:113:25-66
+127
+128                <category android:name="android.intent.category.DEFAULT" />
+128-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:115:17-76
+128-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:115:27-73
+129                <category android:name="android.intent.category.BROWSABLE" />
+129-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:116:17-78
+129-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:116:27-75
+130
+131                <data android:scheme="matrp" />
+131-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:118:17-48
+131-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:118:23-45
+132            </intent-filter>
+133        </activity>
+134
+135        <meta-data
+135-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:122:9-124:35
+136            android:name="android.max_aspect"
+136-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:123:13-46
+137            android:value="2.1" />
+137-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:124:13-32
+138        <meta-data
+138-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:125:9-127:57
+139            android:name="preloaded_fonts"
+139-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:126:13-43
+140            android:resource="@array/preloaded_fonts" />
+140-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:127:13-54
+141
+142        <receiver
+142-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:29:9-40:20
+143            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+143-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:30:13-78
+144            android:exported="true"
+144-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:31:13-36
+145            android:permission="com.google.android.c2dm.permission.SEND" >
+145-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:32:13-73
+146            <intent-filter>
+146-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:33:13-35:29
+147                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+147-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:34:17-81
+147-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:34:25-78
+148            </intent-filter>
+149
+150            <meta-data
+150-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:37:13-39:40
+151                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+151-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:38:17-92
+152                android:value="true" />
+152-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:39:17-37
+153        </receiver>
+154        <!--
+155             FirebaseMessagingService performs security checks at runtime,
+156             but set to not exported to explicitly avoid allowing another app to call it.
+157        -->
+158        <service
+158-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:46:9-53:19
+159            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+159-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:47:13-82
+160            android:directBootAware="true"
+160-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:48:13-43
+161            android:exported="false" >
+161-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:49:13-37
+162            <intent-filter android:priority="-500" >
+162-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:58:13-60:29
+163                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+163-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:59:17-78
+163-->C:\Users\combo\Desktop\AndroidWork\VolgaPosl\app\src\main\AndroidManifest.xml:59:25-75
+164            </intent-filter>
+165        </service>
+166        <service
+166-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:54:9-63:19
+167            android:name="com.google.firebase.components.ComponentDiscoveryService"
+167-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:55:13-84
+168            android:directBootAware="true"
+168-->[com.google.firebase:firebase-common:21.0.0] C:\Users\combo\.gradle\caches\transforms-3\8cb15405e14772ece339fc3467882815\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+169            android:exported="false" >
+169-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:56:13-37
+170            <meta-data
+170-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:57:13-59:85
+171                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+171-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:58:17-122
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:59:17-82
+173            <meta-data
+173-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:60:13-62:85
+174                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+174-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:61:17-119
+175                android:value="com.google.firebase.components.ComponentRegistrar" />
+175-->[com.google.firebase:firebase-messaging:24.0.1] C:\Users\combo\.gradle\caches\transforms-3\4998ed5f312472e1dae8ec99d042326c\transformed\jetified-firebase-messaging-24.0.1\AndroidManifest.xml:62:17-82
+176            <meta-data
+176-->[com.google.firebase:firebase-firestore:25.1.0] C:\Users\combo\.gradle\caches\transforms-3\639e37e9d52f82885834e2330033c873\transformed\jetified-firebase-firestore-25.1.0\AndroidManifest.xml:17:13-19:85
+177                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+177-->[com.google.firebase:firebase-firestore:25.1.0] C:\Users\combo\.gradle\caches\transforms-3\639e37e9d52f82885834e2330033c873\transformed\jetified-firebase-firestore-25.1.0\AndroidManifest.xml:18:17-122
+178                android:value="com.google.firebase.components.ComponentRegistrar" />
+178-->[com.google.firebase:firebase-firestore:25.1.0] C:\Users\combo\.gradle\caches\transforms-3\639e37e9d52f82885834e2330033c873\transformed\jetified-firebase-firestore-25.1.0\AndroidManifest.xml:19:17-82
+179            <meta-data
+179-->[com.google.firebase:firebase-firestore:25.1.0] C:\Users\combo\.gradle\caches\transforms-3\639e37e9d52f82885834e2330033c873\transformed\jetified-firebase-firestore-25.1.0\AndroidManifest.xml:20:13-22:85
+180                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+180-->[com.google.firebase:firebase-firestore:25.1.0] C:\Users\combo\.gradle\caches\transforms-3\639e37e9d52f82885834e2330033c873\transformed\jetified-firebase-firestore-25.1.0\AndroidManifest.xml:21:17-111
+181                android:value="com.google.firebase.components.ComponentRegistrar" />
+181-->[com.google.firebase:firebase-firestore:25.1.0] C:\Users\combo\.gradle\caches\transforms-3\639e37e9d52f82885834e2330033c873\transformed\jetified-firebase-firestore-25.1.0\AndroidManifest.xml:22:17-82
+182            <meta-data
+182-->[com.google.firebase:firebase-database:21.0.0] C:\Users\combo\.gradle\caches\transforms-3\5ef998196292a00e07aa0390c805dec2\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:29:13-31:85
+183                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+183-->[com.google.firebase:firebase-database:21.0.0] C:\Users\combo\.gradle\caches\transforms-3\5ef998196292a00e07aa0390c805dec2\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:30:17-120
+184                android:value="com.google.firebase.components.ComponentRegistrar" />
+184-->[com.google.firebase:firebase-database:21.0.0] C:\Users\combo\.gradle\caches\transforms-3\5ef998196292a00e07aa0390c805dec2\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:31:17-82
+185            <meta-data
+185-->[com.google.firebase:firebase-database:21.0.0] C:\Users\combo\.gradle\caches\transforms-3\5ef998196292a00e07aa0390c805dec2\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:32:13-34:85
+186                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+186-->[com.google.firebase:firebase-database:21.0.0] C:\Users\combo\.gradle\caches\transforms-3\5ef998196292a00e07aa0390c805dec2\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:33:17-109
+187                android:value="com.google.firebase.components.ComponentRegistrar" />
+187-->[com.google.firebase:firebase-database:21.0.0] C:\Users\combo\.gradle\caches\transforms-3\5ef998196292a00e07aa0390c805dec2\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:34:17-82
+188            <meta-data
+188-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\combo\.gradle\caches\transforms-3\afd75bfb3bd5a9bee0448cac1fa93ae4\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+189                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+189-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\combo\.gradle\caches\transforms-3\afd75bfb3bd5a9bee0448cac1fa93ae4\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+190                android:value="com.google.firebase.components.ComponentRegistrar" />
+190-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\combo\.gradle\caches\transforms-3\afd75bfb3bd5a9bee0448cac1fa93ae4\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+191            <meta-data
+191-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\combo\.gradle\caches\transforms-3\afd75bfb3bd5a9bee0448cac1fa93ae4\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+192                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+192-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\combo\.gradle\caches\transforms-3\afd75bfb3bd5a9bee0448cac1fa93ae4\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+193                android:value="com.google.firebase.components.ComponentRegistrar" />
+193-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\combo\.gradle\caches\transforms-3\afd75bfb3bd5a9bee0448cac1fa93ae4\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+194            <meta-data
+194-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\combo\.gradle\caches\transforms-3\91c018b806e519ce4e4704040aea084b\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+195                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+195-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\combo\.gradle\caches\transforms-3\91c018b806e519ce4e4704040aea084b\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+196                android:value="com.google.firebase.components.ComponentRegistrar" />
+196-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\combo\.gradle\caches\transforms-3\91c018b806e519ce4e4704040aea084b\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+197            <meta-data
+197-->[com.google.firebase:firebase-common:21.0.0] C:\Users\combo\.gradle\caches\transforms-3\8cb15405e14772ece339fc3467882815\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+198                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+198-->[com.google.firebase:firebase-common:21.0.0] C:\Users\combo\.gradle\caches\transforms-3\8cb15405e14772ece339fc3467882815\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+199                android:value="com.google.firebase.components.ComponentRegistrar" />
+199-->[com.google.firebase:firebase-common:21.0.0] C:\Users\combo\.gradle\caches\transforms-3\8cb15405e14772ece339fc3467882815\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+200            <meta-data
+200-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\combo\.gradle\caches\transforms-3\5b3571bcf3e28d500c52659f196ab1dc\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:25:13-27:85
+201                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+201-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\combo\.gradle\caches\transforms-3\5b3571bcf3e28d500c52659f196ab1dc\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:26:17-115
+202                android:value="com.google.firebase.components.ComponentRegistrar" />
+202-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\combo\.gradle\caches\transforms-3\5b3571bcf3e28d500c52659f196ab1dc\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:27:17-82
+203        </service>
+204        <service android:name="com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService" />
+204-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\combo\.gradle\caches\transforms-3\cb31b32d59bdbf0892dd9082ca21de06\transformed\jetified-library-1.7.7\AndroidManifest.xml:12:9-118
+204-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\combo\.gradle\caches\transforms-3\cb31b32d59bdbf0892dd9082ca21de06\transformed\jetified-library-1.7.7\AndroidManifest.xml:12:18-115
+205        <service
+205-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\combo\.gradle\caches\transforms-3\cb31b32d59bdbf0892dd9082ca21de06\transformed\jetified-library-1.7.7\AndroidManifest.xml:13:9-15:49
+206            android:name="com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService"
+206-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\combo\.gradle\caches\transforms-3\cb31b32d59bdbf0892dd9082ca21de06\transformed\jetified-library-1.7.7\AndroidManifest.xml:14:13-108
+207            android:process=":filedownloader" />
+207-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\combo\.gradle\caches\transforms-3\cb31b32d59bdbf0892dd9082ca21de06\transformed\jetified-library-1.7.7\AndroidManifest.xml:15:13-46
+208
+209        <activity
+209-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\combo\.gradle\caches\transforms-3\fe7b6ed29b0a937ec4b60604b947dcc8\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+210            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+210-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\combo\.gradle\caches\transforms-3\fe7b6ed29b0a937ec4b60604b947dcc8\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+211            android:exported="false"
+211-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\combo\.gradle\caches\transforms-3\fe7b6ed29b0a937ec4b60604b947dcc8\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+212            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+212-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\combo\.gradle\caches\transforms-3\fe7b6ed29b0a937ec4b60604b947dcc8\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+213
+214        <provider
+214-->[com.google.firebase:firebase-common:21.0.0] C:\Users\combo\.gradle\caches\transforms-3\8cb15405e14772ece339fc3467882815\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+215            android:name="com.google.firebase.provider.FirebaseInitProvider"
+215-->[com.google.firebase:firebase-common:21.0.0] C:\Users\combo\.gradle\caches\transforms-3\8cb15405e14772ece339fc3467882815\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+216            android:authorities="ru.volga.online.firebaseinitprovider"
+216-->[com.google.firebase:firebase-common:21.0.0] C:\Users\combo\.gradle\caches\transforms-3\8cb15405e14772ece339fc3467882815\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+217            android:directBootAware="true"
+217-->[com.google.firebase:firebase-common:21.0.0] C:\Users\combo\.gradle\caches\transforms-3\8cb15405e14772ece339fc3467882815\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+218            android:exported="false"
+218-->[com.google.firebase:firebase-common:21.0.0] C:\Users\combo\.gradle\caches\transforms-3\8cb15405e14772ece339fc3467882815\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+219            android:initOrder="100" />
+219-->[com.google.firebase:firebase-common:21.0.0] C:\Users\combo\.gradle\caches\transforms-3\8cb15405e14772ece339fc3467882815\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+220        <provider
+220-->[androidx.emoji2:emoji2:1.3.0] C:\Users\combo\.gradle\caches\transforms-3\57fb915129e7a9d26d854f36ea66a7a4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+221            android:name="androidx.startup.InitializationProvider"
+221-->[androidx.emoji2:emoji2:1.3.0] C:\Users\combo\.gradle\caches\transforms-3\57fb915129e7a9d26d854f36ea66a7a4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+222            android:authorities="ru.volga.online.androidx-startup"
+222-->[androidx.emoji2:emoji2:1.3.0] C:\Users\combo\.gradle\caches\transforms-3\57fb915129e7a9d26d854f36ea66a7a4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+223            android:exported="false" >
+223-->[androidx.emoji2:emoji2:1.3.0] C:\Users\combo\.gradle\caches\transforms-3\57fb915129e7a9d26d854f36ea66a7a4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+224            <meta-data
+224-->[androidx.emoji2:emoji2:1.3.0] C:\Users\combo\.gradle\caches\transforms-3\57fb915129e7a9d26d854f36ea66a7a4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+225                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+225-->[androidx.emoji2:emoji2:1.3.0] C:\Users\combo\.gradle\caches\transforms-3\57fb915129e7a9d26d854f36ea66a7a4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+226                android:value="androidx.startup" />
+226-->[androidx.emoji2:emoji2:1.3.0] C:\Users\combo\.gradle\caches\transforms-3\57fb915129e7a9d26d854f36ea66a7a4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+227            <meta-data
+227-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\combo\.gradle\caches\transforms-3\6d6c624b323278be5c53c6a01ebb17fa\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+228                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+228-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\combo\.gradle\caches\transforms-3\6d6c624b323278be5c53c6a01ebb17fa\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+229                android:value="androidx.startup" />
+229-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\combo\.gradle\caches\transforms-3\6d6c624b323278be5c53c6a01ebb17fa\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+230            <meta-data
+230-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\combo\.gradle\caches\transforms-3\e896ca3e8d43701b4921ed10349c3140\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+231                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+231-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\combo\.gradle\caches\transforms-3\e896ca3e8d43701b4921ed10349c3140\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+232                android:value="androidx.startup" />
+232-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\combo\.gradle\caches\transforms-3\e896ca3e8d43701b4921ed10349c3140\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+233        </provider>
+234
+235        <meta-data
+235-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\combo\.gradle\caches\transforms-3\19d5f8ff084c634723312b10b8cae01a\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+236            android:name="com.google.android.gms.version"
+236-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\combo\.gradle\caches\transforms-3\19d5f8ff084c634723312b10b8cae01a\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+237            android:value="@integer/google_play_services_version" />
+237-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\combo\.gradle\caches\transforms-3\19d5f8ff084c634723312b10b8cae01a\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+238
+239        <receiver
+239-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\combo\.gradle\caches\transforms-3\e896ca3e8d43701b4921ed10349c3140\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+240            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+240-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\combo\.gradle\caches\transforms-3\e896ca3e8d43701b4921ed10349c3140\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+241            android:directBootAware="false"
+241-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\combo\.gradle\caches\transforms-3\e896ca3e8d43701b4921ed10349c3140\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+242            android:enabled="true"
+242-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\combo\.gradle\caches\transforms-3\e896ca3e8d43701b4921ed10349c3140\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+243            android:exported="true"
+243-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\combo\.gradle\caches\transforms-3\e896ca3e8d43701b4921ed10349c3140\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+244            android:permission="android.permission.DUMP" >
+244-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\combo\.gradle\caches\transforms-3\e896ca3e8d43701b4921ed10349c3140\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+245            <intent-filter>
+245-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\combo\.gradle\caches\transforms-3\e896ca3e8d43701b4921ed10349c3140\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+246                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+246-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\combo\.gradle\caches\transforms-3\e896ca3e8d43701b4921ed10349c3140\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+246-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\combo\.gradle\caches\transforms-3\e896ca3e8d43701b4921ed10349c3140\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+247            </intent-filter>
+248            <intent-filter>
+248-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\combo\.gradle\caches\transforms-3\e896ca3e8d43701b4921ed10349c3140\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+249                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+249-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\combo\.gradle\caches\transforms-3\e896ca3e8d43701b4921ed10349c3140\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+249-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\combo\.gradle\caches\transforms-3\e896ca3e8d43701b4921ed10349c3140\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+250            </intent-filter>
+251            <intent-filter>
+251-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\combo\.gradle\caches\transforms-3\e896ca3e8d43701b4921ed10349c3140\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+252                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+252-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\combo\.gradle\caches\transforms-3\e896ca3e8d43701b4921ed10349c3140\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+252-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\combo\.gradle\caches\transforms-3\e896ca3e8d43701b4921ed10349c3140\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+253            </intent-filter>
+254            <intent-filter>
+254-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\combo\.gradle\caches\transforms-3\e896ca3e8d43701b4921ed10349c3140\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+255                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+255-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\combo\.gradle\caches\transforms-3\e896ca3e8d43701b4921ed10349c3140\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+255-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\combo\.gradle\caches\transforms-3\e896ca3e8d43701b4921ed10349c3140\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+256            </intent-filter>
+257        </receiver>
+258
+259        <service
+259-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\combo\.gradle\caches\transforms-3\d5ffb1b247e87aa747b661c58b4ca5ca\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+260            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+260-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\combo\.gradle\caches\transforms-3\d5ffb1b247e87aa747b661c58b4ca5ca\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+261            android:exported="false" >
+261-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\combo\.gradle\caches\transforms-3\d5ffb1b247e87aa747b661c58b4ca5ca\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+262            <meta-data
+262-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\combo\.gradle\caches\transforms-3\d5ffb1b247e87aa747b661c58b4ca5ca\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+263                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+263-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\combo\.gradle\caches\transforms-3\d5ffb1b247e87aa747b661c58b4ca5ca\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+264                android:value="cct" />
+264-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\combo\.gradle\caches\transforms-3\d5ffb1b247e87aa747b661c58b4ca5ca\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+265        </service>
+266        <service
+266-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\combo\.gradle\caches\transforms-3\a31b1fec91964733d282cf7786c13c6e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+267            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+267-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\combo\.gradle\caches\transforms-3\a31b1fec91964733d282cf7786c13c6e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+268            android:exported="false"
+268-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\combo\.gradle\caches\transforms-3\a31b1fec91964733d282cf7786c13c6e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+269            android:permission="android.permission.BIND_JOB_SERVICE" >
+269-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\combo\.gradle\caches\transforms-3\a31b1fec91964733d282cf7786c13c6e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+270        </service>
+271
+272        <receiver
+272-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\combo\.gradle\caches\transforms-3\a31b1fec91964733d282cf7786c13c6e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+273            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+273-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\combo\.gradle\caches\transforms-3\a31b1fec91964733d282cf7786c13c6e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+274            android:exported="false" />
+274-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\combo\.gradle\caches\transforms-3\a31b1fec91964733d282cf7786c13c6e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+275    </application>
+276
+277</manifest>

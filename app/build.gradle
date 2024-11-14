@@ -1,0 +1,223 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+
+    //api 34 or api 35 Supported ABIs:[x86_64, arm64-v8a] - not work
+    //api 30           Supported ABIs:[x86_64, x86, arm64-v8a, armeabi-v7a, armeabi] - work
+    //                                [armeabi-v7a, armeabi]
+    //used folder /lib/x86_64
+
+    splits {
+        abi {
+            reset()
+            include 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+            universalApk true
+            enable false
+        }
+        density {
+            enable false
+        }
+        language {
+            enable false
+        }
+    }
+
+
+    namespace("ru.volga.online")
+
+    compileSdkVersion 34
+    buildToolsVersion "33.0.0"
+
+    compileOptions {
+        sourceCompatibility 17
+        targetCompatibility 17
+    }
+
+    //Если невозможно добавить 64-битную поддержку, вам придется оставить targetSdkVersion на уровне 28 или ниже.
+    // Однако это может ограничить распространение приложения в Google Play Store,
+    // так как Google Play требует поддержки 64-битных библиотек для targetSdkVersion 29 и выше.
+    defaultConfig {
+        minSdkVersion 21
+        //noinspection ExpiredTargetSdkVersion
+        targetSdk 28
+        //targetSdk 33
+        //targetSdk 35
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        applicationId 'ru.volga.online'
+        versionName '151-version-volga'
+        versionCode 151
+        vectorDrawables.useSupportLibrary = true
+
+        multiDexEnabled = true
+        ndk {
+            //abiFilters 'armeabi-v7a'
+            abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+        }
+    }
+
+
+    buildFeatures {
+        viewBinding true
+        buildConfig true
+    }
+
+    signingConfigs {
+        k0 {
+            keyAlias 'vilinz'
+            keyPassword '21452145'
+            storeFile file('keystore/keystore.jks')
+            storePassword '21452145'
+        }
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            shrinkResources false
+//            minifyEnabled true
+//            shrinkResources true
+            proguardFiles(getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro")
+            signingConfig signingConfigs.k0
+            //versionNameSuffix "-DEMO"
+
+
+        }
+        release {
+            minifyEnabled false
+            shrinkResources false
+//            minifyEnabled true
+//            shrinkResources true
+            proguardFiles(getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro")
+            signingConfig signingConfigs.k0
+        }
+
+    }
+    //buildTypes.all { isCrunchPngs = false }
+
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false // Не прерывать сборку из-за ошибок lint
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    //implementation files('libs/ini4j-0.5.4.jar')
+
+    implementation "androidx.appcompat:appcompat:$rootProject.compatVersion"
+    implementation "com.google.android.material:material:$rootProject.materialVersion"
+    //implementation 'com.tuyenmonkey:mkloader:1.4.0'
+
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation "com.github.skydoves:colorpickerpreference:2.0.4"
+    // https://mvnrepository.com/artifact/ru.egslava/MaskedEditText
+    //implementation("ru.egslava:MaskedEditText:1.0.5")
+    implementation 'com.github.arefbhrn:maskededittext:1.0.0'
+
+    implementation 'com.google.firebase:firebase-messaging:24.0.1'
+    //implementation 'com.google.firebase:firebase-inappmessaging-display:20.3.3'
+    //implementation 'com.google.firebase:firebase-firestore:24.7.0'
+    testImplementation 'junit:junit:4.13.2'
+    implementation 'com.github.Triggertrap:SeekArc:v1.1'
+    //implementation 'com.akexorcist:round-corner-progress-bar:2.1.2'
+
+    //implementation 'com.dinuscxj:circleprogressbar:1.3.6'
+    // https://mvnrepository.com/artifact/com.dinuscxj/circleprogressbar
+    //implementation("com.dinuscxj:circleprogressbar:1.1.1")
+    //implementation 'com.dinuscxj:circleprogressbar:1.3.6'
+    implementation project(path: ":circleprogressbar")
+    implementation project(path: ":nvidia")
+
+    //implementation 'org.ini4j:ini4j:0.5.4'
+    //implementation 'org.ini4j:ini4j:0.5.1'
+    //implementation 'com.github.SeniorZhai:Ini4Android:1.0.0'
+
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.16.0'
+
+    //implementation 'com.mindorks.android:prdownloader:0.6.0'
+    implementation 'com.github.amitshekhariitbhu:PRDownloader:1.0.1'
+
+    implementation 'com.google.firebase:firebase-firestore:25.1.0'
+    implementation 'com.google.firebase:firebase-database:21.0.0'
+    implementation 'com.github.hzy3774:AndroidP7zip:v1.7.2'
+    //implementation 'com.hzy:un7zip:+'
+    implementation 'com.squareup.retrofit2:converter-gson:2.11.0'
+
+    //implementation 'com.github.smarteist:autoimageslider:1.4.0'
+    implementation 'com.github.smarteist:Android-Image-Slider:1.4.0'
+
+    implementation 'com.mikhaellopez:circularprogressbar:3.1.0'
+    implementation 'com.liulishuo.filedownloader:library:1.7.7'
+}
+
+
+//task copyLibrary(type: Copy) {
+//    outputs.upToDateWhen { false }
+//    from "$projectDir\\..\\jni\\libs\\armeabi-v7a\\"
+//    into "$projectDir\\src\\main\\jniLibs\\armeabi-v7a"
+//    include "*.so"
+//}
+task copyLibrary(type: Copy) {
+    outputs.upToDateWhen { false }
+    from "$projectDir/../jni/libs/armeabi-v7a/"
+    into "$projectDir/src/main/jniLibs/armeabi-v7a"
+    include "*.so"
+}
+
+tasks.withType(com.android.build.gradle.tasks.MergeSourceSetFolders) { task ->
+    task.inputs.files(copyLibrary.outputs.files)
+}
+task compileLibs {
+    outputs.upToDateWhen { false }
+    doLast {
+        exec {
+            ignoreExitValue = true
+            executable "$projectDir\\..\\jni\\compile.cmd"
+            workingDir "$projectDir\\..\\jni\\"
+            // без необходимости гредл не трогай а то copy Library не будеть работать
+            args ''
+        }
+    }
+}
+
+//task compileLibs {
+//    doLast {
+//        exec {
+//            commandLine "$projectDir/../jni/compile.cmd"
+//            workingDir "$projectDir/../jni/"
+//            ignoreExitValue = true
+//        }
+//    }
+//}
+
+preBuild.dependsOn compileLibs
+compileLibs.finalizedBy(copyLibrary)
+//${variant.name}-
+android.applicationVariants.all { variant ->
+    variant.outputs.all {
+        //outputFileName = "volgaonline.${variant.versionName}.apk"
+        outputFileName = "volgaonline.apk"
+    }
+    variant.assembleProvider.configure { assemble ->
+        assemble.doLast {
+            delete "$projectDir\\build_apk\\"
+
+            copy {
+                from variant.outputs*.outputFile
+                into "$projectDir\\..\\build_apk\\"
+            }
+
+            copy {
+                from "$projectDir\\..\\jni\\libs\\armeabi-v7a\\"
+                into "$projectDir\\..\\build_apk\\"
+                include "*.so"
+            }
+        }
+    }
+}

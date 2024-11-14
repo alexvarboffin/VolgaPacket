@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/noty_layout"
+	android:layout_width="wrap_content"
+	android:layout_height="@dimen/_32sdp"
+	android:layout_gravity="bottom|center"
+	android:clickable="true"
+	app:cardBackgroundColor="@android:color/transparent"
+	app:cardCornerRadius="@dimen/_5sdp"
+	app:cardElevation="0.0dip"
+	app:cardMaxElevation="0.0dip"
+	app:cardPreventCornerOverlap="false"
+	app:cardUseCompatPadding="false">
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/constt"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<ImageView
+			android:id="@+id/imageView76"
+			android:layout_width="0.0dip"
+			android:layout_height="0.0dip"
+			android:background="@drawable/auth_bg_email"
+			android:scaleType="fitXY"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintHorizontal_bias="0.0"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.0" />
+
+		<androidx.cardview.widget.CardView
+			android:id="@+id/cardView7"
+			android:layout_width="@dimen/_32sdp"
+			android:layout_height="@dimen/_32sdp"
+			app:cardBackgroundColor="#00326C34"
+			app:cardCornerRadius="@dimen/_5sdp"
+			app:cardElevation="0.0dip"
+			app:cardMaxElevation="0.0dip"
+			app:cardPreventCornerOverlap="false"
+			app:cardUseCompatPadding="false"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent">
+
+			<ImageView
+				android:id="@+id/noty_bg_image"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:scaleType="fitXY"
+				android:visibility="gone"
+				app:srcCompat="@drawable/ic_noty_bg_picture" />
+
+			<androidx.cardview.widget.CardView
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_marginStart="@dimen/_1sdp"
+				android:layout_marginTop="@dimen/_1sdp"
+				android:layout_marginEnd="@dimen/_1sdp"
+				android:layout_marginBottom="@dimen/_1sdp"
+				app:cardBackgroundColor="#03449347"
+				app:cardCornerRadius="@dimen/_4sdp"
+				app:cardElevation="0.0dip"
+				app:cardMaxElevation="0.0dip"
+				app:cardPreventCornerOverlap="false"
+				app:cardUseCompatPadding="false" />
+
+			<ImageView
+				android:id="@+id/noty_image"
+				android:layout_width="@dimen/_19sdp"
+				android:layout_height="@dimen/_19sdp"
+				android:layout_gravity="center"
+				android:visibility="visible"
+				app:srcCompat="@drawable/ic_hud_fcm_bell" />
+
+			<ImageView
+				android:id="@+id/noty_image2"
+				android:layout_width="@dimen/_19sdp"
+				android:layout_height="@dimen/_19sdp"
+				android:layout_gravity="center"
+				android:visibility="invisible"
+				app:srcCompat="@drawable/ic_hud_human" />
+
+		</androidx.cardview.widget.CardView>
+
+		<TextView
+			android:id="@+id/noty_text"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="@dimen/_14sdp"
+			android:fontFamily="@font/ttnorms_regular"
+			android:maxLines="3"
+			android:paddingEnd="@dimen/_18sdp"
+			android:text="MESSAGE"
+			android:textColor="#ffffffff"
+			android:textSize="@dimen/_8sdp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintStart_toEndOf="@id/cardView7"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<FrameLayout
+			android:id="@+id/noty_btn_1"
+			android:layout_width="@dimen/_50sdp"
+			android:layout_height="@dimen/_23sdp"
+			android:layout_marginEnd="@dimen/_6sdp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toStartOf="@id/noty_btn_2"
+			app:layout_constraintStart_toEndOf="@id/noty_text"
+			app:layout_constraintTop_toTopOf="parent">
+
+			<ImageView
+				android:id="@+id/noty_btn_bg_1"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:scaleType="fitXY"
+				app:srcCompat="@drawable/ic_noty_btn_1" />
+
+			<TextView
+				android:id="@+id/noty_btn_text_2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:fontFamily="@font/ttnorms_bold"
+				android:text="button"
+				android:textColor="#ffffffff"
+				android:textSize="@dimen/_8sdp" />
+		</FrameLayout>
+
+		<FrameLayout
+			android:id="@+id/noty_btn_2"
+			android:layout_width="@dimen/_23sdp"
+			android:layout_height="@dimen/_23sdp"
+			android:layout_marginEnd="@dimen/_6sdp"
+			android:visibility="visible"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toEndOf="@id/noty_btn_1"
+			app:layout_constraintTop_toTopOf="parent">
+
+			<ImageView
+				android:id="@+id/noty_btn_bg_2"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:scaleType="fitXY"
+				app:srcCompat="@drawable/ic_noty_btn_2"
+                tools:ignore="ContentDescription" />
+
+			<TextView
+				android:id="@+id/noty_btn_text_20"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:fontFamily="@font/ttnorms_bold"
+				android:text="X"
+				android:textColor="#ffffffff"
+				android:textSize="@dimen/_8sdp" />
+		</FrameLayout>
+
+		<ProgressBar
+			android:id="@+id/noty_progress"
+			style="?android:progressBarStyleHorizontal"
+			android:layout_width="0.0dip"
+			android:layout_height="@dimen/_1sdp"
+			android:indeterminate="false"
+			android:max="1000"
+			android:progress="800"
+			android:progressDrawable="@drawable/progressbar_noty"
+			android:visibility="visible"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

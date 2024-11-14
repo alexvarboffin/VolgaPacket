@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/_27sdp"
+    android:layout_marginEnd="@dimen/_6sdp"
+    android:layout_marginBottom="@dimen/_6sdp"
+    android:background="@drawable/keyboard_btn_bg"
+    android:backgroundTint="#ff1e1624"
+    android:backgroundTintMode="src_in"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/new_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="@dimen/_7sdp"
+            android:layout_height="@dimen/_7sdp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="@dimen/_4sdp"
+            app:srcCompat="@drawable/ic_keyboard_bind_add" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/ttnorms_medium"
+            android:gravity="center_vertical"
+            android:text="Создать новую команду"
+            android:textColor="#4dffffff"
+            android:textSize="@dimen/_9sdp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="@dimen/_88sdp"
+        android:layout_height="fill_parent"
+        android:background="@drawable/keyboard_btn_bg"
+        android:fontFamily="@font/ttnorms_medium"
+        android:gravity="center"
+        android:text="Название"
+        android:textColor="#ffffffff"
+        android:textSize="@dimen/_9sdp" />
+
+    <com.nvidia.devtech.CustomEditText
+        android:id="@+id/input"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:layout_weight="1.0"
+        android:background="@null"
+        android:ellipsize="end"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:fontFamily="@font/ttnorms_medium"
+        android:hint="Введите текст…"
+        android:imeOptions="flagNoExtractUi"
+        android:singleLine="true"
+        android:text="Никита Варфоломеев пидарас, пошёл нахуй отсюда"
+        android:textColor="#ffffffff"
+        android:textColorHint="#4dffffff"
+        android:textSize="@dimen/_9sdp" />
+
+    <ImageView
+        android:id="@+id/clear"
+        android:layout_width="@dimen/_23sdp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:paddingEnd="@dimen/_12sdp"
+        app:srcCompat="@drawable/ic_keyboard_close" />
+</LinearLayout>
